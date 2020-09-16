@@ -1,0 +1,48 @@
+========================================================================
+Decomment-DFA
+Author: Eesha Agarwal
+========================================================================
+
+------------------------------------------------------------------------
+Textual representation of Decomment DFA for Assignment 1
+------------------------------------------------------------------------
+
+NORMAL (accept) <-- the start state
+   \":  IN_STRING (print c)
+   \':  IN_CHAR (print c)
+    /:  SLASH
+other:  NORMAL (print c)
+
+IN_STRING (accept)
+   \":  NORMAL (print c)
+   \\:  ESCAPE_IN_STRING (print c)
+other:  NORMAL (print c)
+
+IN_CHAR (accept)
+   \':  NORMAL (print c)
+   \\:  ESCAPE_IN_CHAR (print c)
+other:  NORMAL (print c)
+
+SLASH (accept)
+    *:  IN_COMMENT (print c)
+    /:  SLASH (print c)
+   \':  IN_CHAR (print /, print c)
+   \":  IN_STRING (print /, print c)
+other:  NORMAL (print /, print c)
+
+STAR (reject)
+    /:  NORMAL
+    *:  STAR
+   \n:  IN_COMMENT (print \n)
+other:  IN_COMMENT
+
+IN_COMMENT (reject)
+    *:  STAR
+   \n:  IN_COMMENT (print \n)
+other:  IN_COMMENT
+
+ESCAPE_IN_CHAR (accept)
+other:  IN_CHAR (print c)
+
+ESCAPE_IN_STRING (accept)
+other:  IN_STRING (print c)

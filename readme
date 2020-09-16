@@ -2,12 +2,12 @@ Assignment 1 readme File
 
 ------------------------------------------------------------------------
 What is your name?
-
+Eesha Agarwal
 
 
 ------------------------------------------------------------------------
 How many late days are you using on this assignment?
-
+0
 
 
 ------------------------------------------------------------------------
@@ -16,7 +16,25 @@ the assignment? COPY THE LIST of authorized sources of information
 given in the "Policies" web page to this section of the readme file,
 and edit it as appropriate.
 
+The course's lectures.
 
+The course's precepts.
+
+The course's website.
+
+Documents that are referenced directly by the course's website.
+Such documents include the course's lecture slides and precept handouts.
+
+The man pages on the armlab cluster.
+
+The course's current staff members outside of class time through office
+hours.
+
+The course's current staff members outside of class time through Ed.
+
+The course's current staff members outside of class time through e-mail.
+
+Current lab teaching assistants through visits to the course labs.
 
 ------------------------------------------------------------------------
 What unauthorized sources of information did you use to complete the
@@ -30,18 +48,22 @@ interaction, may additionally require the interaction being reported
 to the Committee on Discipline. Write "None" if you used no
 unauthorized sources of information.
 
-
+None
 
 ------------------------------------------------------------------------
 What is your assessment of the assignment? Was it helpful? Was it fun?
 
-
+I was initially quite daunted by the idea of working in an entirely new
+language and such a different one, as well as by the idea of having to
+use the terminal, since I don't have any prior familiarity with either.
+However, I thoroughly enjoyed the assignment and loved learning
+a little about C and how to work with Linux. I also better understood
+the compilation process and its different stages in undertaking this
+particular assignment.
 
 ------------------------------------------------------------------------
 (optional) What information can you provide about your submission that
 will help your grader to grade it in the most favorable light? In
 particular, what bugs are in your submission?
-
-
 
 ------------------------------------------------------------------------
